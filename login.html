@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: gray;
+      }
+      .form {
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      form {
+        margin-top: 60px;
+      }
+      button {
+        border: 5px solid black;
+        background-color: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h2 style="font-weight: 800; color: rgb(58, 44, 44); margin-top: 100px;">ENTER ANY USERNAME AND PASSWORD !! PASSWORD MINIMUM LENGTH IS 5</h2>
+    </center>
+    <div
+      class="form"
+      style="
+        background-image: url(./bg11.jpeg);
+        width: 500px;
+        min-height: 200px;
+      "
+    >
+      <center>
+        <form action="lab0.html">
+          <label for="uname">USERNAME</label>
+          <input type="text" name="uname" required />
+          <br /><br />
+          <label for="upass">PASSWORD</label>
+          <input type="password" minlength="5" required />
+          <br /><br />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </center>
+    </div>
+  </body>
+</html>
